@@ -1,0 +1,9 @@
+StringTable resource
+{
+	Entry _strings
+	[ 
+		{ String _name = "buttonSizeTip";		String _text = "Click to minimize / maximize this utility window."; }
+
+	]
+}
+
