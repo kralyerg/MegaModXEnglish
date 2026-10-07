@@ -153,6 +153,8 @@ StringTable mainMenu
 		{ String _name = "ModInstalled";		String _text = "Installed Mods"; }
 		{ String _name = "ModDefaultTip";		String _text = ""; }
 		{ String _name = "ModUpdateAvailable";	String _text = "Mod updates are ready."; }
+		{ String _name = "ModResourceTitle";	String _text = "^jl^f1^c0Resources^f0^n The resources contained in the mod are below. Items ^c1highlighted in orange^c0 are files are conflicting with another mod, but the files from this mod will be loaded. Items ^c2highlighted in bright yellow^c0 are conflicting with another mod, but won't be loaded."; }
+		{ String _name = "ModUpdateReload";	String _text = "One or more mods have been downloaded or updated. Pressing this button will reload the game and allow the mods to be used. Otherwise the new mods will become available next time a game or the main menu is loaded."; }
 		{ String _name = "ModSubscribeTip";		String _text = "Subscribe to this mod to download it."; }
 		{ String _name = "ModSearchError";		String _text = "An error has occured while searching. Please try again later."; }
 		{ String _name = "ModSearchNone";		String _text = "No results were found. Please modify your search criteria."; }
@@ -855,25 +857,43 @@ StringTable startConditions
 	Entry _strings
 	[
 		{ String _name = "HardName";			String _text = "Hard"; }
+		{ String _name = "HardDesc";			String _text = "A hard game begins with four families. A small amount of clothing, food, firewood, and tools are provided. No seeds for farming are available."; }
 		{ String _name = "MediumName";			String _text = "Medium"; }
+		{ String _name = "MediumDesc";			String _text = "A medium game begins with five families. Clothing, food, firewood, tools, and construction materials, are provided. A storage barn has already been built. Some seeds for fields and orchards are available."; }
 		{ String _name = "EasyName";			String _text = "Easy"; }
+		{ String _name = "EasyDesc";			String _text = "An easy game begins with six families. A large amount of clothing, food, firewood, building materials, and tools are provided. Homes and storage areas have already been built. Seeds for fields and orchards are available as well as a herd of livestock."; }
 		{ String _name = "StartSettlers10Name";		String _text = "Start Settlers 10"; }
 		{ String _name = "StartSettlers10Desc";		String _text = "10 families, wheat, peach and plum."; }
 		{ String _name = "HardPrairieName";			String _text = "Hard Prairie"; }
+		{ String _name = "HardPrairieDesc";			String _text = "A hard game begins with four families. A small amount of clothing, food, firewood, and tools are provided. No seeds for farming are available. Should be played on a Prairie map."; }
 		{ String _name = "MediumPrairieName";			String _text = "Medium Prairie"; }
+		{ String _name = "MediumPrairieDesc";			String _text = "A medium game begins with five families. Clothing, food, firewood, tools, and construction materials, are provided. A storage barn has already been built. Some seeds for fields and orchards are available. Should be played on a Prairie map."; }
 		{ String _name = "EasyPrairieName";			String _text = "Easy Prairie"; }
+		{ String _name = "EasyPrairieDesc";			String _text = "An easy game begins with six families. A large amount of clothing, food, firewood, building materials, and tools are provided. Homes and storage areas have already been built. Seeds for fields and orchards are available as well as a herd of livestock. Should be played on a Prairie map."; }
 		{ String _name = "PioneerName";			String _text = "Pioneer Circle"; }
+		{ String _name = "PioneerDesc";			String _text = "A game with six families. A moderate amount of clothing, food, firewood, and tools are provided. Circle of wagons have already been built. Some seeds for fields are available. Should be played on normal maps."; }
 		{ String _name = "PrairieName";			String _text = "Prairie Circle"; }
+		{ String _name = "PrairieDesc";			String _text = "A game with four families. A moderate amount of clothing, food, firewood, and tools are provided. Circle of wagons have already been built. Some seeds for fields are available. Should be played on Prairie map."; }
 		{ String _name = "PrairieHardName";		String _text = "Prairie Hard"; }
+		{ String _name = "PrairieHardDesc";		String _text = "A game with two families. A moderate amount of clothing, food, firewood, and tools are provided. Some wagons have already been built. Some seeds for fields are available. Should be played on Prairie map."; }
 		{ String _name = "FairyMediumName";			String _text = "Medium Fairy Tale"; }
+		{ String _name = "FairyMediumDesc";			String _text = "A medium game begins with five families. Clothing, food, firewood, tools, and construction materials, are provided. A storage barn has already been built. Some seeds for fields and orchards are available."; }
 		{ String _name = "FairyEasyName";			String _text = "Easy Fairy Tale"; }
+		{ String _name = "FairyEasyDesc";			String _text = "An easy game begins with eight families. A large amount of clothing, food, firewood, building materials, and tools are provided. Storage areas have already been built. Seeds for fields and orchards are available as well as a herd of livestock."; }
 		{ String _name = "HardSwampName";			String _text = "Hard Swamp"; }
+		{ String _name = "HardSwampDesc";			String _text = "A hard game begins with four families. A small amount of clothing, food, firewood, and tools are provided. No seeds for farming are available."; }
 		{ String _name = "MediumSwampName";			String _text = "Medium Swamp"; }
+		{ String _name = "MediumSwampDesc";			String _text = "A medium game begins with five families. Clothing, food, firewood, tools, and construction materials, are provided. A storage barn has already been built. Some seeds for fields and orchards are available."; }
 		{ String _name = "EasySwampName";			String _text = "Easy Swamp"; }
+		{ String _name = "EasySwampDesc";			String _text = "An easy game begins with six families. A large amount of clothing, food, firewood, building materials, and tools are provided. Homes and storage areas have already been built. Seeds for fields and orchards are available as well as a herd of livestock."; }
 		{ String _name = "GrassHardName";			String _text = "Grass Hard"; }
+		{ String _name = "GrassHardDesc";			String _text = "A hard game begins with four families. A small amount of clothing, food, firewood, and tools are provided. No seeds for farming are available. Grass added."; }
 		{ String _name = "GrassMediumName";			String _text = "Grass Medium"; }
+		{ String _name = "GrassMediumDesc";			String _text = "A medium game begins with five families. Clothing, food, firewood, tools, and construction materials, are provided. A storage barn has already been built. Some seeds for fields and orchards are available. Grass added."; }
 		{ String _name = "GrassEasyName";			String _text = "Grass Easy"; }
+		{ String _name = "GrassEasyDesc";			String _text = "An easy game begins with six families. A large amount of clothing, food, firewood, building materials, and tools are provided. Homes and storage areas have already been built. Seeds for fields and orchards are available as well as a herd of livestock. Grass added."; }
 		{ String _name = "JapanName";			String _text = "Japan"; }
+		{ String _name = "JapanDesc";			String _text = "A medium game that begins with six families. Start with seeds for rice, soybeans, tea, or mulberries. Demolish the Silkworm Box to get silkworm eggs. A storage kura has already been built."; }
 	]
 }
 
@@ -1175,6 +1195,7 @@ StringTable professions
 		{	String _name = "ProfessionMinerTip";		String _text = "Miners dig iron ore out of the ground.";	}
 		{	String _name = "ProfessionMinerDeath";		String _text = "was killed by a cave in.";	}
 		{	String _name = "ProfessionStoneCutterTip";	String _text = "Stone cutters quarry stone from the ground.";	}
+		{	String _name = "ProfessionStoneCutter";	String _text = "Stonecutter";	}
 		{	String _name = "ProfessionStoneCutterDeath";	String _text = "was crushed by a rock"; }
 		{	String _name = "ProfessionTeacher";		String _text = "Teacher"; }
 		{	String _name = "ProfessionTeacherTip";		String _text = "Teachers educate citizens to create more resources from the same work.";	}
